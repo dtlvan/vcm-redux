@@ -1,3 +1,6 @@
+# Webpacked dist folder
+dist
+
 # Logs
 logs
 *.log
