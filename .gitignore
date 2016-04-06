@@ -1,6 +1,9 @@
 # Webpacked dist folder
 dist
 
+# other files
+index.html
+
 # Logs
 logs
 *.log

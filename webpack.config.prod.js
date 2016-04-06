@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: [
@@ -18,6 +19,11 @@ module.exports = {
       compress: {
         warnings: false
       }
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Custom template',
+      template: './templates/index.ejs', // Load a custom template
+      filename: '../index.html'
     })
   ],
   resolve: {
