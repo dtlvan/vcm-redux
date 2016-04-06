@@ -6,7 +6,7 @@ export default class Root extends Component {
     const { store } = this.props;
     return (
       <Provider store={store}>
-        Add main container here
+        Add your main container here
       </Provider>
     );
   }

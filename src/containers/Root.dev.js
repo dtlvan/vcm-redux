@@ -8,7 +8,7 @@ export default class Root extends Component {
     return (
       <Provider store={store}>
         <div>
-          Add Main Component here
+          Add you main component here
           <DevTools />
         </div>
       </Provider>
